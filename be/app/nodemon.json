@@ -1,0 +1,12 @@
+{
+  "restartable": "rs",
+  "ignore": [".git", "node_modules/**/node_modules"],
+  "delay": 500,
+  "verbose": false,
+  "exec": "node --loader ts-node/esm ./src/index.ts",
+  "events": {
+    "restart": "echo 'App restarted due to:\n'$FILENAME'\"'"
+  },
+  "signal": "SIGKILL",
+  "watch": ["./**/*.ts"]
+}
