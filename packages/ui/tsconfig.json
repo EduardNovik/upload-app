@@ -1,4 +1,10 @@
 {
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@*": ["./src/*"]
+    }
+  },
   "extends": "@upload/typescript-config/base.json",
   "include": ["."],
   "exclude": ["node_modules"]
