@@ -1,7 +1,4 @@
 packages:
   - "fe/*"
   - "be/*"
-  - "packages/db-schema"
-  - "packages/eslint-config"
-  - "packages/typescript-config"
-  - "packages/ui"
+  - "packages/*"
